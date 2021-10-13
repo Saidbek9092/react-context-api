@@ -15,7 +15,6 @@ const MoviesList = () => {
                 {show ? <OldMovies/> : <h2>Press Show movies again</h2>}
             </div>
         </div>
-
     )
 }
 export default MoviesList
