@@ -3,7 +3,7 @@ import { MovieContext } from "./MovieContext";
 
 const AddMovie = () => {
 
-    const [name, setName] = useState('')
+    const [name, setName] = useState('test')
     const [price, setPrice] = useState('')
     const [movies, setMovies] = useContext(MovieContext)
 
