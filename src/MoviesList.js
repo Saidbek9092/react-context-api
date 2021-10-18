@@ -10,6 +10,7 @@ const MoviesList = () => {
     return (
         <div>
             <div>
+
                 {movies.map((movie,index) => <Movie data={movie} key={index}/> )}
                 <button onClick={()=> setTimeout(()=> setShow(true), 2000) }>Show movies</button>
                 {show ? <OldMovies/> : <h2>Press Show movies again</h2>}
