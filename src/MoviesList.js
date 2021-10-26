@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 const MoviesList = () => {
     const [movies,setMovies] = useContext(MovieContext)
-    const [show, setShow] = useState(false)
+    // const [show, setShow] = useState(false)
     return (
         <div>
             <div>
