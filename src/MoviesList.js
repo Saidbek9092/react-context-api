@@ -18,6 +18,7 @@ const MoviesList = () => {
             </div>
         </div>
     )
+
 }
 export default MoviesList
 
