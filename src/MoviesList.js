@@ -4,7 +4,6 @@ import { MovieContext } from "./MovieContext";
 import OldMovies from "./OldMovies";
 import {Link} from 'react-router-dom'
 
-
 const MoviesList = () => {
     const [movies,setMovies] = useContext(MovieContext)
     const [show, setShow] = useState(false)
