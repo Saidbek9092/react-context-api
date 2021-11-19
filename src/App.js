@@ -9,8 +9,8 @@ function App() {
     return (
         <MovieProvider>
             <div className="App">
-                <Nav/>
-                <AddMovie/>
+                {/*<Nav/>*/}
+                {/*<AddMovie/>*/}
                 <MoviesList/>
             </div>
         </MovieProvider>
