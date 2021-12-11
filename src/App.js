@@ -11,7 +11,7 @@ function App() {
             <div className="App">
                 {/*<Nav/>*/}
                 {/*<AddMovie/>*/}
-                <MoviesList/>
+                {/*<MoviesList/>*/}
             </div>
         </MovieProvider>
     );
