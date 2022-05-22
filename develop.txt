@@ -1,5 +1,1 @@
-# Discarding local changes (permanently) to a file:
-git checkout -- <file>
-
-# Discard all local changes to all files permanently:
-git reset --hard
+updated to devleop
