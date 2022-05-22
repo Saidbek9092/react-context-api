@@ -1,3 +1,5 @@
-my name is develop
-updated vwrsion
-completed
+# Discarding local changes (permanently) to a file:
+git checkout -- <file>
+
+# Discard all local changes to all files permanently:
+git reset --hard
